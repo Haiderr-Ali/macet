@@ -50,30 +50,30 @@
     <hr>
    <h2 style="background-color: aliceblue;"><strong><ins>Any queries?:</ins></strong></h2>
    <p style="text-align: center; font-size: larger; background-color: azure;"><strong><ins>Contact us-:</ins></strong></p>
-   <form action="" style="text-align: center; background-color: aliceblue;">
+   <form action= "https://formspree.io/f/meqwzpzn" method="post" style="text-align: center; background-color: aliceblue;">
     <div>
-        <label>Your Name:</label>
-    <input type="text" name="" value=""> <br>
+        <label for="name">Your Name:</label>
+    <input type="text" name="myname" id="name"> <br>
     </div>
     <br>
     <div>
-        <label>Your E-mail:</label>
-    <input type="email"> <br>
+        <label for="email">Your E-mail:</label>
+    <input type="email" name="myemail" id="email"> <br>
     </div>
     <br>
     <div>
-        <label>Your picture:</label>
-    <input type="file"> <br>
+        <label for="picture">Your picture:</label>
+    <input type="file" name="mypicture" id="picture"> <br>
     </div>
     <br>
     <div>
-        <label>Your D.O.B.</label>
-    <input type="date"> <br>
+        <label for="dob">Your D.O.B.</label>
+    <input type="date"  name="dob" id="dob"> <br>
     </div>
     <br>
     <div>
-        <label>Your contact number:</label>
-    <input type="Contact number"><br>
+        <label  for="contact">Your contact number:</label>
+    <input type="Contact number" name="mycontact" id="contact"><br>
     </div>
     <br>
     <div>
@@ -92,24 +92,37 @@
         <input type="radio" name="mygender" id="other">
         </label>
      </div>
+       <br>
+       <div>
+        <label for="State">State:</label>
+        <select name="state" id="state">
+            <option value="Bihar">Bihar</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Uttrakhand">Uttrakhand</option>
+        </select>
+       </div>
+       <br>
      <div>
-        <label>Your Message:</label> <br>
-    <textarea name="" id="" cols="10" rows="5"></textarea><br>
+        <label for="message">Your Message:</label> <br>
+    <textarea name="message" id="message" cols="10" rows="5"></textarea><br>
      </div>
      <br>
      <div>
-        <label>Create Your strong password:</label>
-    <input type="password"><br>
+        <label for="password">Create Your strong password:</label>
+    <input type="password" name="password" id="password"><br>
      </div>
      <br>
      <div>
-        <label>Your all details are correct?</label>
-        <input type="checkbox"> <br>
+        <label for="details">Your all details are correct?</label>
+        <input type="checkbox" name="details" id="details"> <br>
      </div>
      <br>
      <div>
-        <label>Final Submission: </label>
-    <input type="submit">
+        <label for="final">Final Submission: </label>
+    <input type="submit"  name="final" id="name">
      </div>
      <br>
      <div>
